@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d59bbea3f85737dcec68df4a9d9fb246",
+    "content-hash": "518a78b59bcc63b64b25375605705b41",
     "packages": [
         {
             "name": "brick/math",
@@ -510,11 +510,17 @@
         },
         {
             "name": "getcodedev/test-levenshtein",
-            "version": "dev-main",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GetCodeDev/test-levenshtein.git",
+                "reference": "6cafe91eb5d1a7917b293ecddfbaad1e9c1bb4fb"
+            },
             "dist": {
-                "type": "path",
-                "url": "../test-levenshtein",
-                "reference": "1d39853a7d2dab3f914ecaf4c22f734d607a685b"
+                "type": "zip",
+                "url": "https://api.github.com/repos/GetCodeDev/test-levenshtein/zipball/6cafe91eb5d1a7917b293ecddfbaad1e9c1bb4fb",
+                "reference": "6cafe91eb5d1a7917b293ecddfbaad1e9c1bb4fb",
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^9.0",
@@ -542,30 +548,15 @@
                 }
             },
             "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
                 "psr-4": {
                     "GetCodeDev\\TestLevenshtein\\": "src",
                     "GetCodeDev\\TestLevenshtein\\Database\\Factories\\": "database/factories"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "GetCodeDev\\TestLevenshtein\\Tests\\": "tests"
                 }
             },
-            "scripts": {
-                "analyse": [
-                    "vendor/bin/phpstan analyse"
-                ],
-                "test": [
-                    "vendor/bin/pest"
-                ],
-                "test-coverage": [
-                    "vendor/bin/pest --coverage"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -583,10 +574,11 @@
                 "laravel",
                 "test-levenshtein"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/GetCodeDev/test-levenshtein/issues",
+                "source": "https://github.com/GetCodeDev/test-levenshtein/tree/1.0.0"
+            },
+            "time": "2022-05-28T08:38:15+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -8823,9 +8815,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "getcodedev/test-levenshtein": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
