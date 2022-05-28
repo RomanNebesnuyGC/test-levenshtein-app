@@ -510,16 +510,16 @@
         },
         {
             "name": "getcodedev/test-levenshtein",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GetCodeDev/test-levenshtein.git",
-                "reference": "6cafe91eb5d1a7917b293ecddfbaad1e9c1bb4fb"
+                "reference": "a120640384f150e938f1cddf6bcb3ec9c7c13e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GetCodeDev/test-levenshtein/zipball/6cafe91eb5d1a7917b293ecddfbaad1e9c1bb4fb",
-                "reference": "6cafe91eb5d1a7917b293ecddfbaad1e9c1bb4fb",
+                "url": "https://api.github.com/repos/GetCodeDev/test-levenshtein/zipball/a120640384f150e938f1cddf6bcb3ec9c7c13e80",
+                "reference": "a120640384f150e938f1cddf6bcb3ec9c7c13e80",
                 "shasum": ""
             },
             "require": {
@@ -576,9 +576,9 @@
             ],
             "support": {
                 "issues": "https://github.com/GetCodeDev/test-levenshtein/issues",
-                "source": "https://github.com/GetCodeDev/test-levenshtein/tree/1.0.0"
+                "source": "https://github.com/GetCodeDev/test-levenshtein/tree/1.0.1"
             },
-            "time": "2022-05-28T08:38:15+00:00"
+            "time": "2022-05-28T09:30:48+00:00"
         },
         {
             "name": "graham-campbell/result-type",
